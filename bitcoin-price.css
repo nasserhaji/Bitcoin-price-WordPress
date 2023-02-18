@@ -1,6 +1,22 @@
+/* main class to display bitcoin price */
 .bitcoin-price {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* class for title */
+.bitcoin-price .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* class for price value */
+.bitcoin-price .price {
+    font-size: 24px;
 }
