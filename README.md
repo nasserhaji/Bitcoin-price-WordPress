@@ -1,36 +1,37 @@
-#Bitcoin Price Display Plugin for WordPress
+# Bitcoin Price Display Plugin for WordPress
 The Bitcoin Price Display plugin allows website owners to easily display the current price of Bitcoin on their WordPress website. The plugin uses the Coindesk API to retrieve the current Bitcoin price, and displays it in a styled box at the bottom of all pages of the website.
 The Bitcoin Price Display plugin for WordPress allows you to display the current price of Bitcoin on your website. The plugin uses the Coindesk API to retrieve the latest Bitcoin price and displays it in a styled box at the bottom of your website pages. This plugin is useful for websites that provide information or services related to cryptocurrencies or for websites that want to keep their users informed about the current Bitcoin price.
 
 To use this plugin, you simply need to install and activate it on your WordPress website. Once activated, the Bitcoin price will be automatically displayed on all pages of your website.
-###Features
+
+### Features
 * Display current Bitcoin price on website
 * Uses the Coindesk API
 * Easy to install and use
 * Styled box display on bottom of all pages
 
-###Installation
+### Installation
 1. Download the plugin files from the GitHub repository.
 2. Upload the bitcoin-price-display folder to the /wp-content/plugins/ directory of your WordPress installation.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
-###Usage
+### Usage
 1. Once the plugin is activated, the Bitcoin price will be displayed at the bottom of all pages of the website.
 2. To change the style of the box, modify the bitcoin-price-display/css/bitcoin-price-display.css file.
 
-###License
+### License
 The Bitcoin Price Display plugin is open source software licensed under the MIT License. See the LICENSE file for more information.
 
-###Support
+### Support
 For support, please create an issue on the [GitHub repository](https://github.com/hashemabadi/Bitcoin-price-WordPress).
 
 ###Contributions
 Contributions are welcome and encouraged! To contribute to the Bitcoin Price Display plugin, please create a pull request on the [GitHub repository](https://github.com/hashemabadi/Bitcoin-price-WordPress).
 
-###Credits
+### Credits
 The Bitcoin Price Display plugin was developed by [Abdelnasser Hajihashemabad](https://abdelnasser.com).
 
-###Code
+### Code
 ```scss
 function get_bitcoin_price() {
   $ch = curl_init();
@@ -45,7 +46,7 @@ function get_bitcoin_price() {
 <div class="bitcoin-price">
   <p>Bitcoin Price: <?php echo get_bitcoin_price(); ?> USD</p>
 </div>
-
+```
 ```css
 .bitcoin-price {
   background-color: #f8f8f8;
@@ -53,7 +54,7 @@ function get_bitcoin_price() {
   padding: 10px;
   margin: 10px 0;
 }
-
+```
 ```php
 <?php
 /*
@@ -91,7 +92,7 @@ add_action( 'wp_footer', 'bitcoin_price_display' );
 
 ```
 
-###Tags
+### Tags
 bitcoin, cryptocurrency, WordPress, Coindesk, plugin, open source
 
 Note: Replace "example" with your GitHub username or organization name in the above links.
