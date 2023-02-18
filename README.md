@@ -3,6 +3,18 @@ The Bitcoin Price Display plugin allows website owners to easily display the cur
 The Bitcoin Price Display plugin for WordPress allows you to display the current price of Bitcoin on your website. The plugin uses the Coindesk API to retrieve the latest Bitcoin price and displays it in a styled box at the bottom of your website pages. This plugin is useful for websites that provide information or services related to cryptocurrencies or for websites that want to keep their users informed about the current Bitcoin price.
 
 To use this plugin, you simply need to install and activate it on your WordPress website. Once activated, the Bitcoin price will be automatically displayed on all pages of your website.
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Support](#Support)
+- [License](#license)
+- [Contributions](#Contributions)
+- [Credits](#Credits)
+- [Code](#Code)
+- [Tags](#Tags)
+
+
 
 ### Features
 * Display current Bitcoin price on website
@@ -25,7 +37,7 @@ The Bitcoin Price Display plugin is open source software licensed under the MIT 
 ### Support
 For support, please create an issue on the [GitHub repository](https://github.com/hashemabadi/Bitcoin-price-WordPress).
 
-###Contributions
+### Contributions
 Contributions are welcome and encouraged! To contribute to the Bitcoin Price Display plugin, please create a pull request on the [GitHub repository](https://github.com/hashemabadi/Bitcoin-price-WordPress).
 
 ### Credits
@@ -120,6 +132,4 @@ add_action( 'wp_footer', 'bitcoin_price_display' );
 ```
 
 ### Tags
-bitcoin, cryptocurrency, WordPress, Coindesk, plugin, open source
-
-Note: Replace "example" with your GitHub username or organization name in the above links.
+**bitcoin**, **cryptocurrency**, **WordPress**, **Coindesk**, **plugin**, **open source**
