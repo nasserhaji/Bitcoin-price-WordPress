@@ -32,7 +32,7 @@ To use this plugin, you simply need to install and activate it on your WordPress
 2. To change the style of the box, modify the bitcoin-price-display/css/bitcoin-price-display.css file.
 
 ### License
-The Bitcoin Price Display plugin is open source software licensed under the MIT License. See the LICENSE file for more information.
+The Bitcoin Price Display plugin is open source software licensed under the GPL2 License.
 
 ### Support
 For support, please create an issue on the [GitHub repository](https://github.com/hashemabadi/Bitcoin-price-WordPress).
